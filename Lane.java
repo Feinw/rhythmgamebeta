@@ -10,7 +10,7 @@ public class Lane extends GameObject{
 	LinkedQueue k = new LinkedQueue();
 
 	String line = null;
-	int[][] whole = new int[20][5];
+	int[][] whole = new int[300][5];
 	int line_number=0;
 
 	Note current = null;
